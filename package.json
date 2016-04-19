@@ -12,6 +12,6 @@
   "scripts": {
     "start": "npm run webpack & npm run serve",
     "webpack": "node_modules/.bin/webpack -w",
-    "serve": "python -m SimpleHTTPServer"
+    "serve": "go run main.go"
   }
 }
